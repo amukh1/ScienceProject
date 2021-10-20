@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+/* @import url('https://css.gg/arrow-right-o.css'); */
+ 
+body {
+    background-color:rgb(39, 36, 36);
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+ 
+.headrr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+ 
+.content {
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+ 
+.headr {
+animation: color-change 3.5s infinite;
+font-family: 'Noto Sans', sans-serif;
+}
+ 
+  @keyframes color-change {
+    0% { color: springgreen; }
+    25% { color:yellow; }
+    50% { color:turquoise }
+    100% { color:tomato; }
+  }
+ 
+  .start {
+      display:flex;
+      justify-content: center;
+      position: relative;
+      top: 100px;
+      font-size:70px;
+      color: springgreen;
+      transition: all 2s;
+      transition: position 2s;
+      animation: Move-ing 3.5s infinite;
+  }
+ 
+ 
+  @keyframes Move-ing {
+ 
+    0%
+    {
+    left: 0
+    }
+ 
+    50%
+    {
+    left: 40px
+    }
+ 
+    100%
+    {
+    left: 0
+    }
+  }
+ 
+  .start:hover {
+      color:tomato;
+      cursor: pointer;
+ 
+  }
+ 
+  .by{
+      color: turquoise;
+      font-size: 35px;
+      display: flex;
+      justify-content: center;
+    position: relative;
+    top: 300px;
+  }
