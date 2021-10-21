@@ -134,7 +134,7 @@ function answerThree() {
         o3.innerHTML = q3o3
         correct = 'three'
     }else if(stage == 4){
-        window.location.href = "http://127.0.0.1:5500/ending.html";
+        window.location.href = "https://science.amukh1.dev/ending.html";
     }
 
     
