@@ -10,7 +10,7 @@ let q9 = 'What is the Skeletal system?'
 let q10 = 'What is the Skeletal system made out of'
 let q11 = 'Where is the Skeletal system'
 let q12 = 'True OR False: We need the Skeletal system'
-let q13 = 'Is the Skeletal system classified as a system?'
+let q13 = 'True OR False: Is the Skeletal system classified as a system?'
 let q14 = 'True OR False: The Skeletal system is important'
 let q15 = 'Thank You for playing our game!'
 
@@ -63,9 +63,9 @@ let q12o1 = 'True' // correct
 let q12o2 = 'False'
 let q12o3 = 'None'
 
-let q13o1 = 'I dont think so'
-let q13o2 = 'No'
-let q13o3 = 'Yes' // correct
+let q13o1 = 'True'
+let q13o2 = 'False'
+let q13o3 = 'None' // correct
 
 let q14o1 = 'True' // correct
 let q14o2 = 'False' 
@@ -162,7 +162,7 @@ if(stage == 1){
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
     o3.innerHTML = q13o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 14){
     question.innerHTML = q14
     o1.innerHTML = q14o1
@@ -260,7 +260,7 @@ function answerOne() {
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
     o3.innerHTML = q13o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 14){
     question.innerHTML = q14
     o1.innerHTML = q14o1
@@ -476,7 +476,7 @@ function answerThree() {
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
     o3.innerHTML = q13o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 14){
     question.innerHTML = q14
     o1.innerHTML = q14o1
