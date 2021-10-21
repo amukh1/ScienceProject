@@ -48,7 +48,7 @@ if(stage == 1){
 
 function answerOne() {
     if(correct == 'one'){
-        alert('Correct')
+        
     console.log('one')
     stage = stage + 1
     if(stage == 1){
@@ -80,7 +80,7 @@ function answerOne() {
 
 function answerTwo() {
     if(correct == 'two'){
-        alert('Correct')
+        
     console.log('two')
     stage = stage + 1
     if(stage == 1){
@@ -112,7 +112,7 @@ function answerTwo() {
 
 function answerThree() {
     if(correct == 'three'){
-        alert('Correct')
+        
     console.log('three')
     stage = stage + 1
     if(stage == 1){
