@@ -153,14 +153,17 @@ if(stage == 1){
     correct = 'two'
 }else if(stage == 12){
     o3.style.display = 'none'
-    o2.style.width = '49.95'
-    o1.style.width = '49.95'
+    o2.style.width = '49.95%'
+    o1.style.width = '49.95%'
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
     o3.innerHTML = q12o3
     correct = 'two'
 }else if(stage == 13){
+    o3.style.display = 'flex'
+    o2.style.width = '33.3%'
+    o1.style.width = '33.3%'
     question.innerHTML = q13
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
@@ -168,14 +171,17 @@ if(stage == 1){
     correct = 'three'
 }else if(stage == 14){
     o3.style.display = 'none'
-    o2.style.width = '49.95'
-    o1.style.width = '49.95'
+    o2.style.width = '49.95%'
+    o1.style.width = '49.95%'
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
     o3.innerHTML = q14o3
     correct = 'two'
 }else if(stage == 15){
+    o3.style.display = 'flex'
+    o2.style.width = '33.3%'
+    o1.style.width = '33.3%'
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
