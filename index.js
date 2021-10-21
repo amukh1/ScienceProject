@@ -152,6 +152,9 @@ if(stage == 1){
     o3.innerHTML = q4o3
     correct = 'two'
 }else if(stage == 12){
+    o3.style.display = 'none'
+    o2.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
@@ -164,6 +167,9 @@ if(stage == 1){
     o3.innerHTML = q13o3
     correct = 'three'
 }else if(stage == 14){
+    o3.style.display = 'none'
+    o2.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
