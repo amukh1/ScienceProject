@@ -159,7 +159,7 @@ if(stage == 1){
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
     o3.innerHTML = q12o3
-    correct = 'one'
+    correct = 'two'
 }else if(stage == 13){
     question.innerHTML = q13
     o1.innerHTML = q13o1
@@ -174,7 +174,7 @@ if(stage == 1){
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
     o3.innerHTML = q14o3
-    correct = 'one'
+    correct = 'two'
 }else if(stage == 15){
     question.innerHTML = q15
     o1.innerHTML = q15o1
