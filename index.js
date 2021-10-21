@@ -27,12 +27,12 @@ let q3o1 = 'Digests food'
 let q3o2 = 'Makes you happy'
 let q3o3 = 'It supports your body'
 
-let q4o1 = 'Muscular'
+let q4o1 = 'Respatory'
 let q4o2 = 'Digestive'
-let q4o3 = 'Respatory'
+let q4o3 = 'Muscular'
 
 let q5o1 = 'Middle'
-let q5o2 = 'Top'
+let q5o2 = 'Top' //correct
 let q5o3 = 'Bottom'
 
 let q6o1 = 'Fingers'
@@ -114,7 +114,7 @@ if(stage == 1){
     o1.innerHTML = q5o1
     o2.innerHTML = q5o2
     o3.innerHTML = q5o3
-    correct = 'three'
+    correct = 'two'
 }else if(stage == 6){
     question.innerHTML = q6
     o1.innerHTML = q6o1
