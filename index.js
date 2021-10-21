@@ -146,10 +146,10 @@ if(stage == 1){
     o3.innerHTML = q10o3
     correct = 'one'
 }else if(stage == 11){
-    question.innerHTML = q4
-    o1.innerHTML = q4o1
-    o2.innerHTML = q4o2
-    o3.innerHTML = q4o3
+    question.innerHTML = q11
+    o1.innerHTML = q11o1
+    o2.innerHTML = q11o2
+    o3.innerHTML = q11o3
     correct = 'two'
 }else if(stage == 12){
     o3.style.display = 'none'
