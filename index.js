@@ -1,79 +1,79 @@
 let q1 = 'What system are we doing?'
-let q2 = 'QUESTION NUMBER TWOOOOOO'
-let q3 = 'question 3'
-let q4 = 'What system are we doing?'
-let q5 = 'QUESTION NUMBER TWOOOOOO'
-let q6 = 'question 3'
-let q7 = 'What system are we doing?'
-let q8 = 'QUESTION NUMBER TWOOOOOO'
-let q9 = 'question 3'
-let q10 = 'What system are we doing?'
-let q11 = 'QUESTION NUMBER TWOOOOOO'
-let q12 = 'question 3'
-let q13 = 'What system are we doing?'
-let q14 = 'QUESTION NUMBER TWOOOOOO'
-let q15 = 'question 3'
+let q2 = 'What are the functions of a rib cage?'
+let q3 = 'Whats the pourpose of the skeletal system?'
+let q4 = 'What system does the skeletal system work with?'
+let q5 = 'Wheres your scalpula?'
+let q6 = 'What organs does your skeletal system protect'
+let q7 = 'What protects the brain'
+let q8 = 'Is Spongy Bone real?'
+let q9 = 'What is the Skeletal system?'
+let q10 = 'What is the Skeletal system made out of'
+let q11 = 'Where is the Skeletal system'
+let q12 = 'True OR False: We need the Skeletal system'
+let q13 = 'Is the Skeletal system classified as a system?'
+let q14 = 'True OR False: The Skeletal system is important'
+let q15 = 'Thank You for playing our game!'
 
 
 let q1o1 = 'Skeletal'
 let q1o2 = 'Muscle'
 let q1o3 = 'Incorrect'
 
-let q2o1 = 'Incorrect'
-let q2o2 = 'Correct'
-let q2o3 = 'Incorrect'
+let q2o1 = 'Help breathe'
+let q2o2 = 'Protect lungs'
+let q2o3 = 'Protects the brain'
 
-let q3o1 = 'Incorrect'
-let q3o2 = 'Incorrect'
-let q3o3 = 'Correct'
+let q3o1 = 'Digests food'
+let q3o2 = 'Makes you happy'
+let q3o3 = 'It supports your body'
 
-let q4o1 = 'corr'
-let q4o2 = 'Incorrect'
-let q4o3 = 'notCorrect'
+let q4o1 = 'Muscular'
+let q4o2 = 'Digestive'
+let q4o3 = 'Respatory'
 
-let q5o1 = 'Ineorrect'
-let q5o2 = 'cor'
-let q5o3 = 'nothteCorrect'
+let q5o1 = 'Middle'
+let q5o2 = 'Top'
+let q5o3 = 'Bottom'
 
-let q6o1 = 'Incorrect'
-let q6o2 = 'Incorrect'
-let q6o3 = 'Correct'
+let q6o1 = 'Fingers'
+let q6o2 = 'Legs'
+let q6o3 = 'Heart, Lungs and brain'
 
-let q7o1 = 'Incorrect'
-let q7o2 = 'Incorrect'
-let q7o3 = 'Correct'
+let q7o1 = 'Jaw'
+let q7o2 = 'Skull' // MAKE THIS CORRECT
+let q7o3 = 'Rib cage'
 
-let q8o1 = 'Incorrect'
-let q8o2 = 'Incorrect'
-let q8o3 = 'Correct'
+let q8o1 = `I'm not sure`
+let q8o2 = 'NO'
+let q8o3 = 'Yes it is' 
 
-let q9o1 = 'Incorrect'
-let q9o2 = 'Incorrect'
-let q9o3 = 'Correct'
+let q9o1 = 'A system'
+let q9o2 = 'Your lungs'
+let q9o3 = 'The system that supports and protects your body'
 
-let q10o1 = 'Incorrect'
-let q10o2 = 'Incorrect'
-let q10o3 = 'Correct'
+let q10o1 = 'Bones and Joints' // MAKE THIS CORRECT
+let q10o2 = 'Tissue boxes'
+let q10o3 = 'Organ systems'
 
-let q11o1 = 'Incorrect'
-let q11o2 = 'Incorrect'
-let q11o3 = 'Correct'
+let q11o1 = 'Lower body'
+let q11o2 = 'Whole body' // Correct
+let q11o3 = 'Higher body'
 
-let q12o1 = 'Incorrect'
-let q12o2 = 'Incorrect'
-let q12o3 = 'Correct'
+let q12o1 = 'True' // correct
+let q12o2 = 'False'
+let q12o3 = 'None'
 
-let q13o1 = 'Incorrect'
-let q13o2 = 'Incorrect'
-let q13o3 = 'Correct'
+let q13o1 = 'I dont think so'
+let q13o2 = 'No'
+let q13o3 = 'Yes' // correct
 
-let q14o1 = 'Incorrect'
-let q14o2 = 'Incorrect'
-let q14o3 = 'Correct'
+let q14o1 = 'True' // correct
+let q14o2 = 'False' 
+let q14o3 = 'None'
 
-let q15o1 = 'Incorrect'
-let q15o2 = 'Incorrect'
-let q15o3 = 'Correct'
+let q15o1 = 'Your welcome'
+let q15o2 = 'Your welcome' // correct
+let q15o3 = 'Your welcome'
 
 
 let o1 = document.getElementById('o1')
@@ -126,7 +126,7 @@ if(stage == 1){
     o1.innerHTML = q7o1
     o2.innerHTML = q7o2
     o3.innerHTML = q7o3
-    correct = 'three'
+    correct = 'two'
 }else if(stage == 8){
     question.innerHTML = q8
     o1.innerHTML = q8o1
@@ -144,19 +144,19 @@ if(stage == 1){
     o1.innerHTML = q10o1
     o2.innerHTML = q10o2
     o3.innerHTML = q10o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 11){
     question.innerHTML = q4
     o1.innerHTML = q4o1
     o2.innerHTML = q4o2
     o3.innerHTML = q4o3
-    correct = 'three'
+    correct = 'two'
 }else if(stage == 12){
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
     o3.innerHTML = q12o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 13){
     question.innerHTML = q13
     o1.innerHTML = q13o1
@@ -168,13 +168,13 @@ if(stage == 1){
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
     o3.innerHTML = q14o3
-    correct = 'three'
+    correct = 'one'
 }else if(stage == 15){
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
     o3.innerHTML = q15o3
-    correct = 'three'
+    correct = 'two'
 }
 
 
@@ -224,7 +224,7 @@ function answerOne() {
         o1.innerHTML = q7o1
         o2.innerHTML = q7o2
         o3.innerHTML = q7o3
-        correct = 'three'
+        correct = 'two'
     }else if(stage == 8){
         question.innerHTML = q8
         o1.innerHTML = q8o1
@@ -242,7 +242,7 @@ function answerOne() {
         o1.innerHTML = q10o1
         o2.innerHTML = q10o2
         o3.innerHTML = q10o3
-        correct = 'three'
+        correct = 'one'
     }else if(stage == 11){
         question.innerHTML = q4
         o1.innerHTML = q4o1
@@ -326,7 +326,7 @@ function answerTwo() {
         o1.innerHTML = q7o1
         o2.innerHTML = q7o2
         o3.innerHTML = q7o3
-        correct = 'three'
+        correct = 'two'
     }else if(stage == 8){
         question.innerHTML = q8
         o1.innerHTML = q8o1
@@ -344,7 +344,7 @@ function answerTwo() {
         o1.innerHTML = q10o1
         o2.innerHTML = q10o2
         o3.innerHTML = q10o3
-        correct = 'three'
+        correct = 'one'
     }else if(stage == 11){
         question.innerHTML = q4
         o1.innerHTML = q4o1
@@ -428,7 +428,7 @@ function answerThree() {
         o1.innerHTML = q7o1
         o2.innerHTML = q7o2
         o3.innerHTML = q7o3
-        correct = 'three'
+        correct = 'two'
     }else if(stage == 8){
         question.innerHTML = q8
         o1.innerHTML = q8o1
@@ -446,7 +446,7 @@ function answerThree() {
         o1.innerHTML = q10o1
         o2.innerHTML = q10o2
         o3.innerHTML = q10o3
-        correct = 'three'
+        correct = 'one'
     }else if(stage == 11){
         question.innerHTML = q4
         o1.innerHTML = q4o1
