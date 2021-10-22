@@ -1,8 +1,12 @@
+body {
+    background-color: #fcc2bc;
+}
+
 .content {
     display: flex;
     justify-content: center;
 }
-
+/* 
 .over {
 
-}
+} */
