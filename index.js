@@ -8,7 +8,7 @@ let q7 = 'What protects the brain'
 let q8 = 'Is Spongy Bone real?'
 let q9 = 'What is the Skeletal system?'
 let q10 = 'What is the Skeletal system made out of'
-let q11 = 'Where is the skeletal system?'
+let q11 = 'Where is the skeletal system?' //'Where is the skeletal system?' or the end
 let q12 = 'True OR False: We need the Skeletal system'
 let q13 = 'True OR False: Is the Skeletal system classified as a system?'
 let q14 = 'True OR False: The Skeletal system is important'
@@ -151,7 +151,7 @@ if(stage == 1){
     o2.innerHTML = q11o2
     o3.innerHTML = q11o3
     correct = 'two'
-   
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }else if(stage == 12){
     o3.style.display = 'none'
     o2.style.width = '49.95'
