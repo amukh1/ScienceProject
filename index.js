@@ -155,7 +155,7 @@ if(stage == 1){
 }else if(stage == 12){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
@@ -165,7 +165,7 @@ if(stage == 1){
 }else if(stage == 13){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q13
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
@@ -175,7 +175,7 @@ if(stage == 1){
 }else if(stage == 14){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
@@ -185,7 +185,7 @@ if(stage == 1){
 }else if(stage == 15){
     o3.style.display = 'flex'
     o2.style.width = '33.3'
-    01.style.width = '33.3'
+    o1.style.width = '33.3'
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
@@ -200,7 +200,7 @@ function answerOne() {
         
     console.log('one')
     stage = stage + 1
-    if(stage == 1){
+  if(stage == 1){
     question.innerHTML = q1
     o1.innerHTML = q1o1
     o2.innerHTML = q1o2
@@ -270,7 +270,7 @@ function answerOne() {
 }else if(stage == 12){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
@@ -280,7 +280,7 @@ function answerOne() {
 }else if(stage == 13){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q13
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
@@ -290,7 +290,7 @@ function answerOne() {
 }else if(stage == 14){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
@@ -300,7 +300,7 @@ function answerOne() {
 }else if(stage == 15){
     o3.style.display = 'flex'
     o2.style.width = '33.3'
-    01.style.width = '33.3'
+    o1.style.width = '33.3'
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
@@ -308,6 +308,7 @@ function answerOne() {
     correct = 'two'
     window.location.href = "https://science.amukh1.dev/ending.html";
 }
+
 
     
     
@@ -318,6 +319,127 @@ function answerTwo() {
     if(correct == 'two'){
         
     console.log('two')
+    stage = stage + 1
+  if(stage == 1){
+    question.innerHTML = q1
+    o1.innerHTML = q1o1
+    o2.innerHTML = q1o2
+    o3.innerHTML = q1o3
+    correct = 'one'
+}else if(stage == 2){
+    question.innerHTML = q2
+    o1.innerHTML = q2o1
+    o2.innerHTML = q2o2
+    o3.innerHTML = q2o3
+    correct = 'two'
+}else if(stage == 3){
+    question.innerHTML = q3
+    o1.innerHTML = q3o1
+    o2.innerHTML = q3o2
+    o3.innerHTML = q3o3
+    correct = 'three'
+}else if(stage == 4){
+    question.innerHTML = q4
+    o1.innerHTML = q4o1
+    o2.innerHTML = q4o2
+    o3.innerHTML = q4o3
+    correct = 'three'
+}else if(stage == 5){
+    question.innerHTML = q5
+    o1.innerHTML = q5o1
+    o2.innerHTML = q5o2
+    o3.innerHTML = q5o3
+    correct = 'two'
+}else if(stage == 6){
+    question.innerHTML = q6
+    o1.innerHTML = q6o1
+    o2.innerHTML = q6o2
+    o3.innerHTML = q6o3
+    correct = 'three'
+}else if(stage == 7){
+    question.innerHTML = q7
+    o1.innerHTML = q7o1
+    o2.innerHTML = q7o2
+    o3.innerHTML = q7o3
+    correct = 'two'
+}else if(stage == 8){
+    question.innerHTML = q8
+    o1.innerHTML = q8o1
+    o2.innerHTML = q8o2
+    o3.innerHTML = q8o3
+    correct = 'three'
+}else if(stage == 9){
+    question.innerHTML = q9
+    o1.innerHTML = q9o1
+    o2.innerHTML = q9o2
+    o3.innerHTML = q9o3
+    correct = 'three'
+}else if(stage == 10){
+    question.innerHTML = q10
+    o1.innerHTML = q10o1
+    o2.innerHTML = q10o2
+    o3.innerHTML = q10o3
+    correct = 'one'
+}else if(stage == 11){
+    question.innerHTML = q11
+    o1.innerHTML = q11o1
+    o2.innerHTML = q11o2
+    o3.innerHTML = q11o3
+    correct = 'two'
+   
+}else if(stage == 12){
+    o3.style.display = 'none'
+    o2.style.width = '49.95'
+    o1.style.width = '49.95'
+    question.innerHTML = q12
+    o1.innerHTML = q12o1
+    o2.innerHTML = q12o2
+    o3.innerHTML = q12o3
+    correct = 'one'
+   
+}else if(stage == 13){
+    o3.style.display = 'none'
+    o2.style.width = '49.95'
+    o1.style.width = '49.95'
+    question.innerHTML = q13
+    o1.innerHTML = q13o1
+    o2.innerHTML = q13o2
+    o3.innerHTML = q13o3
+    correct = 'one'
+   
+}else if(stage == 14){
+    o3.style.display = 'none'
+    o2.style.width = '49.95'
+    o1.style.width = '49.95'
+    question.innerHTML = q14
+    o1.innerHTML = q14o1
+    o2.innerHTML = q14o2
+    o3.innerHTML = q14o3
+    correct = 'one'
+    window.location.href = "https://science.amukh1.dev/ending.html";
+}else if(stage == 15){
+    o3.style.display = 'flex'
+    o2.style.width = '33.3'
+    o1.style.width = '33.3'
+    question.innerHTML = q15
+    o1.innerHTML = q15o1
+    o2.innerHTML = q15o2
+    o3.innerHTML = q15o3
+    correct = 'two'
+    window.location.href = "https://science.amukh1.dev/ending.html";
+}
+
+
+    
+    
+
+    }
+}
+
+function answerThree() {
+    if(correct == 'three'){
+        
+    console.log('three')
     stage = stage + 1
    if(stage == 1){
     question.innerHTML = q1
@@ -389,7 +511,7 @@ function answerTwo() {
 }else if(stage == 12){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
@@ -399,7 +521,7 @@ function answerTwo() {
 }else if(stage == 13){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q13
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
@@ -409,7 +531,7 @@ function answerTwo() {
 }else if(stage == 14){
     o3.style.display = 'none'
     o2.style.width = '49.95'
-    01.style.width = '49.95'
+    o1.style.width = '49.95'
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
@@ -419,7 +541,7 @@ function answerTwo() {
 }else if(stage == 15){
     o3.style.display = 'flex'
     o2.style.width = '33.3'
-    01.style.width = '33.3'
+    o1.style.width = '33.3'
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
@@ -427,125 +549,8 @@ function answerTwo() {
     correct = 'two'
     window.location.href = "https://science.amukh1.dev/ending.html";
 }
-    
-    
 
-    }
-}
 
-function answerThree() {
-    if(correct == 'three'){
-        
-    console.log('three')
-    stage = stage + 1
-    if(stage == 1){
-    question.innerHTML = q1
-    o1.innerHTML = q1o1
-    o2.innerHTML = q1o2
-    o3.innerHTML = q1o3
-    correct = 'one'
-}else if(stage == 2){
-    question.innerHTML = q2
-    o1.innerHTML = q2o1
-    o2.innerHTML = q2o2
-    o3.innerHTML = q2o3
-    correct = 'two'
-}else if(stage == 3){
-    question.innerHTML = q3
-    o1.innerHTML = q3o1
-    o2.innerHTML = q3o2
-    o3.innerHTML = q3o3
-    correct = 'three'
-}else if(stage == 4){
-    question.innerHTML = q4
-    o1.innerHTML = q4o1
-    o2.innerHTML = q4o2
-    o3.innerHTML = q4o3
-    correct = 'three'
-}else if(stage == 5){
-    question.innerHTML = q5
-    o1.innerHTML = q5o1
-    o2.innerHTML = q5o2
-    o3.innerHTML = q5o3
-    correct = 'two'
-}else if(stage == 6){
-    question.innerHTML = q6
-    o1.innerHTML = q6o1
-    o2.innerHTML = q6o2
-    o3.innerHTML = q6o3
-    correct = 'three'
-}else if(stage == 7){
-    question.innerHTML = q7
-    o1.innerHTML = q7o1
-    o2.innerHTML = q7o2
-    o3.innerHTML = q7o3
-    correct = 'two'
-}else if(stage == 8){
-    question.innerHTML = q8
-    o1.innerHTML = q8o1
-    o2.innerHTML = q8o2
-    o3.innerHTML = q8o3
-    correct = 'three'
-}else if(stage == 9){
-    question.innerHTML = q9
-    o1.innerHTML = q9o1
-    o2.innerHTML = q9o2
-    o3.innerHTML = q9o3
-    correct = 'three'
-}else if(stage == 10){
-    question.innerHTML = q10
-    o1.innerHTML = q10o1
-    o2.innerHTML = q10o2
-    o3.innerHTML = q10o3
-    correct = 'one'
-}else if(stage == 11){
-    question.innerHTML = q11
-    o1.innerHTML = q11o1
-    o2.innerHTML = q11o2
-    o3.innerHTML = q11o3
-    correct = 'two'
-   
-}else if(stage == 12){
-    o3.style.display = 'none'
-    o2.style.width = '49.95'
-    01.style.width = '49.95'
-    question.innerHTML = q12
-    o1.innerHTML = q12o1
-    o2.innerHTML = q12o2
-    o3.innerHTML = q12o3
-    correct = 'one'
-   
-}else if(stage == 13){
-    o3.style.display = 'none'
-    o2.style.width = '49.95'
-    01.style.width = '49.95'
-    question.innerHTML = q13
-    o1.innerHTML = q13o1
-    o2.innerHTML = q13o2
-    o3.innerHTML = q13o3
-    correct = 'one'
-   
-}else if(stage == 14){
-    o3.style.display = 'none'
-    o2.style.width = '49.95'
-    01.style.width = '49.95'
-    question.innerHTML = q14
-    o1.innerHTML = q14o1
-    o2.innerHTML = q14o2
-    o3.innerHTML = q14o3
-    correct = 'one'
-    window.location.href = "https://science.amukh1.dev/ending.html";
-}else if(stage == 15){
-    o3.style.display = 'flex'
-    o2.style.width = '33.3'
-    01.style.width = '33.3'
-    question.innerHTML = q15
-    o1.innerHTML = q15o1
-    o2.innerHTML = q15o2
-    o3.innerHTML = q15o3
-    correct = 'two'
-    window.location.href = "https://science.amukh1.dev/ending.html";
-}
 
     
     
