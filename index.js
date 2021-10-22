@@ -8,7 +8,7 @@ let q7 = 'What protects the brain'
 let q8 = 'Is Spongy Bone real?'
 let q9 = 'What is the Skeletal system?'
 let q10 = 'What is the Skeletal system made out of'
-let q11 = 'Where is the Skeletal system'
+let q11 = 'Thank you for playing!'
 let q12 = 'True OR False: We need the Skeletal system'
 let q13 = 'True OR False: Is the Skeletal system classified as a system?'
 let q14 = 'True OR False: The Skeletal system is important'
@@ -55,9 +55,9 @@ let q10o1 = 'Bones and Joints' // MAKE THIS CORRECT
 let q10o2 = 'Tissue boxes'
 let q10o3 = 'Organ systems'
 
-let q11o1 = 'Lower body'
-let q11o2 = 'Whole body' // Correct
-let q11o3 = 'Higher body'
+let q11o1 = 'Your welcome'
+let q11o2 = 'Your welcome' // Correct
+let q11o3 = 'Your welcome'
 
 let q12o1 = 'True' // correct
 let q12o2 = 'False'
@@ -151,31 +151,35 @@ if(stage == 1){
     o2.innerHTML = q11o2
     o3.innerHTML = q11o3
     correct = 'two'
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }else if(stage == 12){
     question.innerHTML = q12
     o1.innerHTML = q12o1
     o2.innerHTML = q12o2
     o3.innerHTML = q12o3
     correct = 'one'
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }else if(stage == 13){
     question.innerHTML = q13
     o1.innerHTML = q13o1
     o2.innerHTML = q13o2
     o3.innerHTML = q13o3
     correct = 'one'
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }else if(stage == 14){
     question.innerHTML = q14
     o1.innerHTML = q14o1
     o2.innerHTML = q14o2
     o3.innerHTML = q14o3
     correct = 'one'
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }else if(stage == 15){
     question.innerHTML = q15
     o1.innerHTML = q15o1
     o2.innerHTML = q15o2
     o3.innerHTML = q15o3
     correct = 'two'
-    window.location.href = "http://www.w3schools.com";
+    window.location.href = "https://science.amukh1.dev/ending.html";
 }
 
 
