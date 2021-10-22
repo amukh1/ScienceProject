@@ -316,6 +316,11 @@ function answerOne() {
 }
 
 function answerTwo() {
+    if(question == 'Where is the skeletal system?' && o3.style.display == 'none') {
+        console.log('abort')
+        window.location.href = "https://science.amukh1.dev/ending.html";
+
+    }
     if(correct == 'two'){
         
     console.log('two')
