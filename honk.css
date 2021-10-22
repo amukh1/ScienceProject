@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+/* @import url('https://css.gg/arrow-right-o.css'); */
+ 
+
+
 body {
     background-color: #fcc2bc;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .content {
@@ -7,8 +13,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .over {
 margin: 10px;
+font-family: 'Noto Sans', sans-serif;
 }
